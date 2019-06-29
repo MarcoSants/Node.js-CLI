@@ -1,6 +1,10 @@
 const yargs = require("yargs");
-const { builderAdd, commandAdd, describeAdd } = require("./features/add");
-const handlerAdd = require("./features/add/handler");
+const {
+  builderAdd,
+  commandAdd,
+  describeAdd,
+  handlerAdd
+} = require("./features/add");
 
 yargs.command({
   command: commandAdd,
