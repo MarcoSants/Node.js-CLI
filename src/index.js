@@ -1,18 +1,12 @@
 const yargs = require("yargs");
+const { builderAdd, commandAdd, describeAdd } = require("./features/add");
+const handlerAdd = require("./features/add/handler");
 
 yargs.command({
-  command: "add",
-  describe: "Add a new password collection",
-  builder: {
-    t: {
-      describe: "Title",
-      demandOption: true,
-      type: "string"
-    }
-  },
-  handler: args => {
-    console.log("hi", args);
-  }
+  command: commandAdd,
+  describe: describeAdd,
+  builder: builderAdd,
+  handler: async args => handlerAdd(args)
 });
 
 yargs.parse();
