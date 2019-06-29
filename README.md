@@ -1,12 +1,11 @@
 # Node.js-CLI
 
-A base CLI application built with Node.js.
+A base Command Line Application (CLI) built with node.js using yargs.
+Base structure for be creating CLI applications with node. Ready to use.
 
-Base structure for be creating CLI applications with node.
-Ready to use.
+## Simple running example:
+1. npm install
+2. node src/index.js add --name=marco
 
--Simple running example:
-node src/index.js add --name=marco
-
-By Marco Antonio Santo.
-Alias: MarcoSantss.
+By Marco Antonio Santo
+Alias MarcoSantss
