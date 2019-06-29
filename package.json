@@ -1,0 +1,26 @@
+{
+  "name": "node.js-cli",
+  "version": "1.0.0",
+  "description": "A base CLI application built with Node.js.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcoSants/Node.js-CLI.git"
+  },
+  "keywords": [
+    "Node.js",
+    "CLI"
+  ],
+  "author": "MarcoSantss",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcoSants/Node.js-CLI/issues"
+  },
+  "homepage": "https://github.com/MarcoSants/Node.js-CLI#readme",
+  "dependencies": {
+    "yargs": "^13.2.4"
+  }
+}
